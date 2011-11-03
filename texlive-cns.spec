@@ -1,5 +1,11 @@
+# revision 15878
+# category Package
+# catalog-ctan undef
+# catalog-date undef
+# catalog-license undef
+# catalog-version undef
 Name:		texlive-cns
-Version:	20111101
+Version:	20111103
 Release:	1
 Summary:	TeXLive cns package
 Group:		Publishing
@@ -316,6 +322,7 @@ TeXLive cns package.
 %doc %{_texmfdistdir}/doc/fonts/cns/cns40-6/README
 %doc %{_texmfdistdir}/doc/fonts/cns/cns40-7/README
 %doc %{_texmfdistdir}/doc/fonts/cns/cns40-b5/README
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -326,3 +333,5 @@ TeXLive cns package.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar fonts doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
