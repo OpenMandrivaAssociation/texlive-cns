@@ -5,8 +5,8 @@
 # catalog-license undef
 # catalog-version undef
 Name:		texlive-cns
-Version:	20111103
-Release:	10
+Version:	20171104
+Release:	1
 Summary:	TeXLive cns package
 Group:		Publishing
 URL:		http://tug.org/texlive
