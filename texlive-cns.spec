@@ -5,7 +5,7 @@
 # catalog-license undef
 # catalog-version undef
 Name:		texlive-cns
-Version:	20171104
+Version:	20180303
 Release:	1
 Summary:	TeXLive cns package
 Group:		Publishing
