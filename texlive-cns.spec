@@ -1,6 +1,6 @@
 Name:		texlive-cns
 Version:	45677
-Release:	1
+Release:	2
 Summary:	TeXLive cns package
 Group:		Publishing
 URL:		http://tug.org/texlive
